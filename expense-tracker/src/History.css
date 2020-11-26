@@ -1,0 +1,58 @@
+.historyCont{
+    margin-top: 20px;
+    
+}
+
+.headerHist{
+    border-bottom: 2px solid #ccc;
+}
+
+.headerHist > p{
+    font-size: 1.2rem;
+    color: #283747;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.transactions__container{
+    margin-top: 15px;
+    
+}
+.trashIcon{
+    color: #DE354c !important;
+    cursor: pointer;
+}
+.borderColor-green{
+    border-right: 5px solid green;
+}
+.borderColor-red{
+    border-right: 5px solid red;
+}
+.lists__trans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: hotpink; */
+    padding: 0px 10px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.lists__trans > p{
+    margin-top: 11px;
+
+}
+.desc{
+    color: rgb(112, 102, 102);
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: left !important;
+    text-transform: uppercase;
+}
+
+.amount{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    color: grey;
+}

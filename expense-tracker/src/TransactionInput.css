@@ -1,0 +1,86 @@
+.InputContainer{
+    margin-top: 40px;
+}
+.HeadingInput{
+    border-bottom: 2px solid #ccc;
+}
+.HeadingInput > p {
+    font-size: 1.2rem;
+    color: #283747;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.mainFormCOnt{
+    margin-top: 20px;
+}
+
+.textInput > label{
+    color: #932432;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.textInput > input{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color:  #f3f3f3;
+    box-shadow: inset 5px 5px 5px #ababab, 
+    inset -5px -5px 5px #ffffff;
+    border-radius: 100px;
+    font-size: 18px;
+    
+}
+.textInput > input:focus{
+    outline: none;
+}
+.amountInput > input:focus{
+    outline: none;
+}
+.amountInput > label{
+    color: #932432;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.amountInput > input{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color:  #f3f3f3;
+    box-shadow: inset 5px 5px 5px #ababab, 
+            inset -5px -5px 5px #ffffff;
+     border-radius: 100px;
+    font-size: 18px;   
+}
+.btnAdd{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btnAdd > button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 2rem;
+    background-color: #de354c;
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 1.33;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    box-shadow:  8px 8px 14px #d9d9d9, 
+    -8px -8px 14px #ffffff !important; }
+
+.btnAdd > button > span{
+    font-size: 2rem;
+}
+
+.btnAdd > button:hover{
+    background-color: white;
+    color: #de354c;
+    border: 1px solid #de354c;
+}
